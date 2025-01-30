@@ -1,6 +1,8 @@
-# ecommerce_app
 
-A new Flutter project.
+# Flutter Ecommerce Application
+
+hello, here's a simple flutter Ecommerce Application with use of Provider State Management 
+
 
 ## Getting Started
 
@@ -14,3 +16,37 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+
+
+
+
+## Authors
+
+- [@Vinay Chavhan](https://www.github.com/vinay769)
+
+
+## Screenshots
+
+![App Screenshot](assets/screenshots/Screenshot_1738264464.png)
+![App Screenshot](assets/screenshots/Screenshot_1738264459.png)
+![App Screenshot](assets/screenshots/Screenshot_1738264455.png)
+![App Screenshot](assets/screenshots/Screenshot_1738263325.png)
+
+
+## Tech Stack
+
+**Client:** Flutter
+
+
+
+
+## Badges
+
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
+
