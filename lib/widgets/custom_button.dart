@@ -6,6 +6,7 @@ class CustomButton extends StatelessWidget {
   final Color? backgroundColor;
   final Color? textColor;
   final IconData icon;
+  final Size? minimumSize;
 
   const CustomButton(
       {super.key,
@@ -13,7 +14,8 @@ class CustomButton extends StatelessWidget {
       required this.onPressed,
       this.backgroundColor,
       this.textColor,
-      required this.icon});
+      required this.icon,
+      this.minimumSize});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +24,7 @@ class CustomButton extends StatelessWidget {
         style: ElevatedButton.styleFrom(
             backgroundColor: backgroundColor,
             foregroundColor: textColor,
-            minimumSize: const Size(50, 40), // Set minimum width and height
+            minimumSize: minimumSize, // Set minimum width and height
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10))),
